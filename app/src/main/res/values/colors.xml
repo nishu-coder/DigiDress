@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_input_background"> #D8F2FF</color>
+    <color name="button_color">#00CDFE </color>
+    <color name="input_heading_color">#00BDFE</color>
+    <color name="heading_dark">#28727C</color>
+    <color name="f">#61C2E8</color>
+    <color name="shine_blue">#0080FF </color>
+    <color name="registered_button_color"> #0D98BA</color>
+    <color name="register_submit_color">#50C878</color>
+    <color name="color_heading_register1"> #1484CD</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="measurment_input_background">#6299AF</color>
+    <color name="sky_blue_payment_btnColor">#00CDFE</color>
+    <color name="tab_color">#2DEBEE</color>
+    <color name="profile_background_color">#6a6d6f</color>
+
+
+
+</resources>

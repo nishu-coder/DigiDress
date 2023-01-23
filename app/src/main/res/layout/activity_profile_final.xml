@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileFinalActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:civ_border_color="@color/shine_blue"
+            android:src="@drawable/profile_logo"
+            android:backgroundTint="@color/profile_background_color"
+            app:civ_border_width="4dp"
+            tools:ignore="MissingConstraints"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <TextView
+            android:id="@+id/name_text_profile"
+            android:layout_width="227dp"
+            android:layout_height="35dp"
+            android:text="Name"
+            android:textColor="@color/color_heading_register1"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            ></TextView>
+
+
+        <EditText
+
+            android:id="@+id/input_name_profile"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/input_background"
+
+            android:drawableLeft="@drawable/name_icon"
+            android:ems="10"
+            android:hint="   Enter the name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_heading_register1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Mob_no_text_profile"
+            android:layout_width="227dp"
+            android:layout_height="35dp"
+            android:text="Mobile Number"
+            android:textColor="@color/color_heading_register1"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            ></TextView>
+
+
+        <EditText
+            android:id="@+id/input_Phone_no_profile"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_background"
+            android:drawableLeft="@drawable/phone_icon"
+            android:ems="10"
+            android:hint="   +91 xxxxxxxxxx"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:maxLength="10"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_heading_register1"
+            android:textSize="20sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/email_text_profile"
+            android:layout_width="227dp"
+            android:layout_height="35dp"
+            android:text="Email "
+            android:textColor="@color/color_heading_register1"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+
+        <EditText
+            android:id="@+id/email_input_profile"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_background"
+            android:drawableLeft="@drawable/emailicon"
+            android:ems="10"
+            android:hint="   Enter the email id"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_heading_register1"
+            android:textSize="20sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp" />
+
+
+        <TextView
+            android:id="@+id/ageText_profile"
+            android:layout_width="227dp"
+            android:layout_height="35dp"
+            android:text="Age"
+            android:textColor="@color/color_heading_register1"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+
+        <EditText
+            android:id="@+id/ageText_input_profile"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:hint="  Enter the age"
+            android:inputType="number"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_heading_register1"
+            android:textSize="20sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/gender_text"
+            android:layout_width="227dp"
+            android:layout_height="35dp"
+            android:text="Gender"
+            android:textColor="@color/color_heading_register1"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+
+        <EditText
+            android:id="@+id/gender_input_profile"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:hint="  Enter the gender"
+            android:inputType="text"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_heading_register1"
+            android:textSize="20sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/address_text_profile"
+            android:layout_width="227dp"
+            android:layout_height="35dp"
+            android:text="Address"
+            android:textColor="@color/color_heading_register1"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+
+        <EditText
+
+            android:id="@+id/address_input_profile"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_background"
+            android:drawableLeft="@drawable/location_icon"
+            android:ems="10"
+            android:hint="  Enter the address"
+            android:inputType="text"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_heading_register1"
+            android:textSize="20sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp" />
+
+
+        <Button
+            android:id="@+id/measurment_btn_profile"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:background="@drawable/register_button"
+            android:text="Measurement"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            ></Button>
+
+
+        <Button
+            android:id="@+id/done_btn_profile"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:background="@drawable/register_button"
+            android:text="Done"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            ></Button>
+
+    </LinearLayout>
+
+</ScrollView>

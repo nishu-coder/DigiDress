@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CustomActivity">
+
+
+    <TextView
+        android:id="@+id/name_text_customPage"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:text="Name"
+        android:textColor="@color/color_heading_register1"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_input_customPage"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_background"
+        android:drawableLeft="@drawable/name_icon"
+        android:ems="10"
+        android:hint="   Enter the name"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_heading_register1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+
+    <TextView
+        android:id="@+id/mobile_text_customPage"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:text="@string/mobile_number"
+        android:textColor="@color/color_heading_register1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+
+    <EditText
+        android:id="@+id/mobile_input_customPage"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_background"
+        android:drawableLeft="@drawable/phone_icon"
+        android:ems="10"
+        android:hint="   +91 xxxxxxxxxx"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_heading_register1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+
+    <TextView
+        android:id="@+id/order_text_customPage"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:text="@string/order"
+        android:textColor="@color/color_heading_register1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <EditText
+        android:id="@+id/order_input_customPage"
+        android:layout_width="335dp"
+        android:layout_height="154dp"
+        android:background="@drawable/input_background"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:maxLength="300"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/place_text_customPage"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:text="Place"
+        android:textColor="@color/color_heading_register1"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"></TextView>
+
+    <EditText
+        android:id="@+id/place_input_customPage"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_background"
+        android:drawableLeft="@drawable/location_icon"
+        android:ems="10"
+        android:hint="  Enter the location"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_heading_register1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749" />
+
+
+    <Button
+        android:id="@+id/next_btn_customPage"
+        android:layout_width="112dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/gray"
+        android:text="NEXT"
+        android:textColor="@color/shine_blue"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="192dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:alpha="100"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991"
+        tools:ignore="InvalidId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

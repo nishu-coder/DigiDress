@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CustomOrderPage_2_Activity">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:text="Delivery Date"
+        android:textColor="@color/color_heading_register1"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"></TextView>
+
+    <EditText
+
+        android:id="@+id/editText3"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/input_background"
+        android:drawableLeft="@drawable/date_icon"
+        android:ems="10"
+        android:hint=" DD/MM/YYYY"
+        android:inputType="date"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_heading_register1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:text="Delivery Method"
+        android:textColor="@color/color_heading_register1"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.214"></TextView>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_delivery_method"
+        android:layout_width="226dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="MissingConstraints">
+
+
+        <RadioButton
+            android:id="@+id/rb_option_a"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:text="  Self Pick"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_option_b"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:text=" Home Delivery"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:text="Payment"
+        android:textColor="@color/color_heading_register1"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456"></TextView>
+
+    <Button
+        android:id="@+id/cash_payment"
+        android:layout_width="139dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/sky_blue_payment_btnColor"
+        android:gravity="center"
+        android:text="Cash"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <Button
+        android:id="@+id/online_payment"
+        android:layout_width="139dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/sky_blue_payment_btnColor"
+        android:gravity="center"
+        android:text="online"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="214dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:alpha="100"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

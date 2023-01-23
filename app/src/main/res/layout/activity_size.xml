@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SizeActivity"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/choose_size_text"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Choose Size"
+        android:textAlignment="center"
+        android:textColor="@color/heading_dark"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <TextView
+        android:id="@+id/in_cms_text"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:text="IN CMS."
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_size"
+        android:layout_width="187dp"
+        android:layout_height="493dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504">
+
+        <RadioButton
+            android:id="@+id/rb_xxxs_option_a"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:paddingLeft="18dp"
+            android:text="XXXS"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_xxs_option_b"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:paddingLeft="9dp"
+            android:text="XXS"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_xs_option_c"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:text="XS"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_s_option_d"
+            android:layout_width="149dp"
+            android:layout_height="55dp"
+            android:paddingLeft="20dp"
+            android:text="S"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_m_option_e"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:paddingLeft="20dp"
+            android:text="M"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_sm_option_f"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:paddingLeft="20dp"
+            android:text="SM"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_l_option_g"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:paddingLeft="18dp"
+            android:text="L"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_xl_option_h"
+            android:layout_width="164dp"
+            android:layout_height="55dp"
+            android:paddingLeft="17dp"
+            android:text="XL"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_xxl_option_i"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingLeft="16dp"
+            android:text="XXL"
+            android:textAlignment="center"
+            android:textColor="@color/shine_blue"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/next_page_btn"
+        android:layout_width="154dp"
+        android:layout_height="496dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:text="20"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            android:text="32"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            android:text="34"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            android:text="36"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            android:text="38"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            android:text="40"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            android:text="42"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            android:text="44"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            android:text="46"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextPageBtnSize_Stiching"
+        android:layout_width="112dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/gray"
+        android:text="NEXT"
+        android:textColor="@color/shine_blue"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

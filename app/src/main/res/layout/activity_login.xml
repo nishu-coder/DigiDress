@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/sign_in_text"
+        android:layout_width="204dp"
+        android:layout_height="61dp"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="@color/heading_dark"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Mob_no_text_signin"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="180dp"
+        android:text="Mobile Number"
+        android:textColor="@color/color_heading_register1"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/input_Phone_no_sign_in"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="+91   xxxxxxxxxx"
+        android:inputType="phone"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_heading_register1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+
+    <Button
+        android:id="@+id/otp_button_sign_in_page"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:text="Send OTP"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"></Button>
+
+    <EditText
+        android:id="@+id/otp_input_button_sign_in_page"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_heading_register1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/register_button"
+        android:text="login"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783"></Button>
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="197dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo"
+        android:alpha="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

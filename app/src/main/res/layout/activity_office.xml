@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OfficeActivity"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/office_text"
+        android:layout_width="204dp"
+        android:layout_height="61dp"
+        android:text="OFFICE"
+        android:textAlignment="center"
+        android:textColor="@color/heading_dark"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ViewFlipper
+        android:id="@+id/view_flipper_office"
+        android:layout_width="354dp"
+        android:layout_height="448dp"
+        app:layout_constraintBottom_toBottomOf="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326">
+
+        <ImageView
+            android:id="@+id/office_imageView1"
+            android:layout_width="350dp"
+            android:layout_height="448dp"
+            android:src="@drawable/officedress1"
+            app:layout_constraintBottom_toBottomOf="@+id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.326" />
+
+
+        <ImageView
+            android:id="@+id/office_imageView2"
+            android:layout_width="363dp"
+            android:layout_height="464dp"
+            android:src="@drawable/officedress2"
+            app:layout_constraintBottom_toBottomOf="@+id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.326" />
+
+
+        <ImageView
+            android:id="@+id/office_imageView3"
+            android:layout_width="363dp"
+            android:layout_height="464dp"
+            android:src="@drawable/officedress3"
+            app:layout_constraintBottom_toBottomOf="@+id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.326" />
+
+
+        <ImageView
+            android:id="@+id/office_imageView4"
+            android:layout_width="363dp"
+            android:layout_height="464dp"
+            android:src="@drawable/officedress4"
+            app:layout_constraintBottom_toBottomOf="@+id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.326" />
+
+        <ImageView
+            android:id="@+id/office_imageView5"
+            android:layout_width="363dp"
+            android:layout_height="464dp"
+            android:src="@drawable/officedress5"
+            app:layout_constraintBottom_toBottomOf="@+id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.326" />
+
+        <ImageView
+            android:id="@+id/office_imageView6"
+            android:layout_width="363dp"
+            android:layout_height="464dp"
+            android:src="@drawable/officedress6"
+            app:layout_constraintBottom_toBottomOf="@+id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.326" />
+
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/pre2_office"
+        android:layout_width="89dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/gray"
+        android:text="prev"
+        android:textColor="@color/shine_blue"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <Button
+        android:id="@+id/next2_office"
+        android:layout_width="89dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/gray"
+        android:text="NEXT"
+        android:textColor="@color/shine_blue"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <Button
+        android:id="@+id/add_size_btn"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:background="@drawable/user_option_button"
+        android:text="Add Size"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="192dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:alpha="100"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

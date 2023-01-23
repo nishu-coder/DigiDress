@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DailyServicesFragment">
+
+
+    <Button
+        android:id="@+id/ironing_btn_daily_ser"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+      android:layout_marginTop="140dp"
+        android:layout_gravity="center"
+        android:text="Ironing"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/dry_clean_btn_daily_ser"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Dry Cleaning"
+        android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+     />
+
+    <Button
+        android:id="@+id/normal_wash_btn_daily_ser"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Normal Wash"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        ></Button>
+
+    <Button
+        android:id="@+id/monthly_wash_btn_daily_ser"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Monthly/weekly Wash"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+      ></Button>
+
+    <Button
+        android:id="@+id/fitting_btn_daily_ser"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Fitting"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.595"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"></Button>
+
+    <Button
+        android:id="@+id/custom_btn_daily_ser"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Custom"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+       ></Button>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="197dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="94dp"
+        android:alpha="100"
+        android:src="@drawable/logo" />
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SchoolActivity">
+
+
+    <TextView
+        android:id="@+id/schooltext"
+        android:layout_width="194dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="SCHOOL"
+        android:textAlignment="center"
+        android:textColor="@color/heading_dark"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <ViewFlipper
+        android:id="@+id/school_view_flipper"
+        android:layout_width="329dp"
+        android:layout_height="438dp"
+        app:layout_constraintBottom_toBottomOf="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/school_imageview1"
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/schooldress1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/school_imageview2"
+            android:layout_width="414dp"
+            android:layout_height="486dp"
+            android:src="@drawable/schooldress2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/school_imageview3"
+            android:layout_width="414dp"
+            android:layout_height="486dp"
+            android:src="@drawable/schooldress3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/school_imageview4"
+            android:layout_width="414dp"
+            android:layout_height="486dp"
+            android:src="@drawable/schooldress4"
+            tools:ignore="MissingConstraints" />
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/pre1_school"
+        android:layout_width="89dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="@color/gray"
+        android:text="prev"
+        android:textColor="@color/shine_blue"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <Button
+        android:id="@+id/next1_school"
+        android:layout_width="89dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/gray"
+        android:text="NEXT"
+        android:textColor="@color/shine_blue"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+
+    <Button
+        android:id="@+id/add_size_btn"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:background="@drawable/user_option_button"
+        android:text="Add Size"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="192dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:alpha="100"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

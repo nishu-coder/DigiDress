@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StichingFragment"
+    android:background="@color/white">
+
+
+    <Button
+        android:layout_marginTop="190dp"
+        android:id="@+id/school_btn_stiching"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+      android:layout_gravity="center"
+        android:text="School"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+       ></Button>
+
+    <Button
+        android:id="@+id/office_btn_stiching"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:text="Office"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+       ></Button>
+
+    <Button
+        android:id="@+id/party_btn_stiching"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:text="Party"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+       ></Button>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="197dp"
+        android:layout_height="55dp"
+        android:alpha="100"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+       android:layout_marginTop="250dp" />
+</LinearLayout>
